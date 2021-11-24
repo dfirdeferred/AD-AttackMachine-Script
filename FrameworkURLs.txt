@@ -1,0 +1,5 @@
+https://github.com/redcanaryco/atomic-red-team/archive/refs/heads/master.zip
+https://github.com/PowerShellMafia/PowerSploit/archive/refs/heads/master.zip
+https://github.com/ParrotSec/mimikatz/archive/refs/heads/master.zip
+https://github.com/openwall/john/archive/refs/heads/bleeding-jumbo.zip
+https://hashcat.net/files/hashcat-6.2.5.7z
