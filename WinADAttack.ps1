@@ -20,7 +20,9 @@ try{
     setx PATH "%PATH%;C:\Python27\Scripts"
     setx PATH "%PATH%;C:\Python27"
     start-process C:\Python27\Scripts\pip.exe -ArgumentList 'install pyasn1'
+    Start-Sleep -seconds 5
     start-process C:\Python27\Scripts\pip.exe -ArgumentList 'install pyasn1-modules'
+    Start-Sleep -seconds 5
     start-process C:\Python27\Scripts\pip.exe -ArgumentList 'install impacket'
 }
 catch
