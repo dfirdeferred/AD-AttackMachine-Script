@@ -87,12 +87,13 @@ if($join -eq 'Y' -or $join -eq 'y'){
     
     Add-Computer -DomainName ad.vulndomain.corp -Credential AD\dcadmin -restart -force
     }
-elseif($join -eq 'N' -or $join -eq 'n')
+elseif($join -eq 'N' -or $join -eq 'n'){
     exit
     }
 else
     {
     domain-join
     }
+}
 
 domain-join
